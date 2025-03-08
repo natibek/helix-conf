@@ -1,7 +1,26 @@
-theme = "zed_onedark"
+theme = "zed_onedark" 
 
 [editor]
 line-number = "relative"
+auto-save = true
 
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+"A-s" = ":write"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+[keys.normal.space]
+"q" = ":quit"
+"Q" = ":quit!"
+
