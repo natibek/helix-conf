@@ -9,7 +9,7 @@ continue-comments = true
 auto-info = true
 rulers = [100]
 cursorline = true
-
+bufferline = "always"
 
 [editor.indent-guides]
 render = true
@@ -21,6 +21,11 @@ hidden = true
 
 [keys.normal]
 "A-s" = ":write"
+"A-." = ":bnext"
+"A-," = ":bprev"
+"A-c" = ":buffer-close"
+"A-C" = ":buffer-close-others"
+
 
 [keys.insert]
 up = "no_op"
