@@ -3,9 +3,21 @@ theme = "zed_onedark"
 [editor]
 line-number = "relative"
 auto-save = true
+auto-completion = true
+clipboard-provider = "x-clip"
+continue-comments = true
+auto-info = true
+rulers = [100]
+cursorline = true
+
+
+[editor.indent-guides]
+render = true
+character = "│"
+skip-levels = 1
 
 [editor.file-picker]
-hidden = false
+hidden = true
 
 [keys.normal]
 "A-s" = ":write"
